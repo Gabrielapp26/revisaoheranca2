@@ -1,14 +1,12 @@
 public class Novo extends Imovel {
-    private double adiconal;
+    private double precoAdiconal;
 
-    public double getAdiconal() {
-        return adiconal;
+    public double getPrecoAdiconal() {
+        return precoAdiconal;
     }
 
-    public void setAdiconal(double adiconal) {
-        this.adiconal = adiconal;
+    public void setPrecoAdiconal(double precoAdiconal) {
+        this.precoAdiconal = precoAdiconal;
     }
 
-    private double totalNovo;
-    totalNovo = getPreco + getAdiconal;
 }
